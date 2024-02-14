@@ -25,6 +25,6 @@ def get_element(category_name: str):
 if __name__ == "__main__":
     category_name = input()
     #Getting data while input is not equal to "Молоко"
-    while category_name  != "Молоко":
+    while category_name  != "Молоко" or category_name != "молоко":
         get_element(category_name=category_name)
         category_name = input()

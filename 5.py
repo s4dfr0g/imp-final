@@ -15,7 +15,7 @@ def main():
     #Sort and print less selled items
     less_selled = sorted(hash_table.items(), key=lambda x: x[1])
     for i in range(10):
-        print(",".join(map(str,less_selled[i])))
+        print(", ".join(map(str,less_selled[i])))
    
 if __name__ == "__main__":
     main()
